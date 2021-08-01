@@ -1,0 +1,14 @@
+{
+  "name": "astro-website",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Joshua Booth",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build"
+  },
+  "devDependencies": {
+    "astro": "^0.18.5"
+  }
+}
