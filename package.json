@@ -6,9 +6,11 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "astro dev",
-    "build": "astro build"
+    "build": "astro build",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "astro": "^0.18.5"
+    "astro": "^0.18.5",
+    "husky": "^7.0.1"
   }
 }
