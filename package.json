@@ -11,7 +11,8 @@
   },
   "devDependencies": {
     "astro": "^0.18.5",
-    "husky": "^7.0.1"
+    "husky": "^7.0.1",
+    "tailwindcss": "^2.2.7"
   },
   "dependencies": {
     "@astrojs/renderer-react": "^0.2.0"
