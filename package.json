@@ -17,6 +17,7 @@
     "tailwindcss": "^2.2.7"
   },
   "dependencies": {
-    "@astrojs/renderer-react": "^0.2.0"
+    "@astrojs/renderer-react": "^0.2.0",
+    "bootstrap": "^4.4.1"
   }
 }
