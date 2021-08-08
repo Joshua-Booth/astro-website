@@ -1,0 +1,16 @@
+---
+// Styles
+import 'bootstrap/dist/css/bootstrap.css';
+
+const { title } = Astro.props;
+---
+<html lang="en">
+  <head>
+    <title>{title}</title>
+  </head>
+  <body>
+    <header></header>
+    <slot />
+    <footer></footer>
+  </body>
+</html>
