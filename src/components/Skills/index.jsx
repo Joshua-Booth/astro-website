@@ -10,8 +10,8 @@ function Skills({ data = skills }) {
 
       <h3 class="h4 mt-5">Here's what I'm skilled in</h3>
 
-      <div class="text-center mx-auto pt-0 px-3">
-        <div class="card-deck mt-4">
+      <div class="text-center pt-0 px-3">
+        <div class="card-deck mx-auto mt-4">
           {data.map((skill) => (
             <div class="card border-0 mb-5 py-4">
               <img
@@ -19,7 +19,7 @@ function Skills({ data = skills }) {
                 src={`/assets/images/${skill.image.src}`}
                 alt={skill.image.alt}
               />
-              <div class="card-body">
+              <div class="card-body mx-md-5">
                 <h4 class="h5 card-title font-weight-bold">{skill.title}</h4>
                 <p class="card-text col-12 col-sm-8 col-md-12 mx-auto px-0">
                   {skill.description}
