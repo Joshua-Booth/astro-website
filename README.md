@@ -1,10 +1,10 @@
-# Welcome to [Astro](https://astro.build)
+# Josh's Personal [Astro](https://astro.build) Website
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Hey there! I'm currently rebuilding my existing [website](https://github.com/Joshua-Booth/website) with [Astro](https://astro.build) 🚀
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside of this Astro project, you'll see the following folders and files:
 
 ```
 /
@@ -37,4 +37,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into the [Discord server](https://astro.build/chat).
