@@ -8,26 +8,26 @@ import portfolio from "../../data/portfolio.js";
 
 function Portfolio({ data = portfolio }) {
   return (
-    <section class="container section">
-      <h2 class="text-center mb-5">Portfolio</h2>
+    <section className="container section">
+      <h2 className="text-center mb-5">Portfolio</h2>
 
       {data.map((item, index) => (
         <div
           key={index}
-          class="row align-items-center h-100 text-center text-lg-left pt-5 mb-5"
+          className="row align-items-center h-100 text-center text-lg-left pt-5 mb-5"
         >
           <Image image={item.image} link={item.website} />
 
-          <div class="col-lg-5 mx-auto py-3">
-            <h3 class="h3">
+          <div className="col-lg-5 mx-auto py-3">
+            <h3 className="h3">
               {item.name}{" "}
               {item.tag && (
-                <span class="badge badge-pill badge-primary badge-sm align-middle">
+                <span className="badge badge-pill badge-primary badge-sm align-middle">
                   {item.tag}
                 </span>
               )}
             </h3>
-            <p class="mb-5 color-gray">{item.description}</p>
+            <p className="mb-5 color-gray">{item.description}</p>
 
             <SiteLink link={item.website} label={item.name} />
 
@@ -36,8 +36,8 @@ function Portfolio({ data = portfolio }) {
         </div>
       ))}
 
-      <div class="text-center mt-5 pt-5">
-        <a href="/work" class="btn btn-outline-primary">
+      <div className="text-center mt-5 pt-5">
+        <a href="/work" className="btn btn-outline-primary">
           See more
         </a>
       </div>

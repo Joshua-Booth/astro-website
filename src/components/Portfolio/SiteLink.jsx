@@ -4,7 +4,7 @@ function SiteLink({ link, label }) {
       {link && (
         <a
           href={link}
-          class="btn btn-outline-primary mt-4 mr-2"
+          className="btn btn-outline-primary mt-4 mr-2"
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`Visit ${label}`}

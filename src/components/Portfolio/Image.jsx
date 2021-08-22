@@ -3,7 +3,7 @@ function Image({ image, link }) {
     condition ? wrapper(children) : children;
 
   return (
-    <div class="col-lg-6 p-lg-0">
+    <div className="col-lg-6 p-lg-0">
       <ConditionalWrap
         condition={!!link}
         wrapper={(children) => (
@@ -18,7 +18,7 @@ function Image({ image, link }) {
         )}
       >
         <img
-          class="img-fluid"
+          className="img-fluid"
           src={`/assets/images/${image.src}`}
           alt={image.alt}
         />
