@@ -17,13 +17,4 @@ export default skills = [
     description:
       "I develop web designs into fast, responsive websites and web apps.",
   },
-  {
-    title: "Back End",
-    image: {
-      src: "backend.svg",
-      alt: "Back End Development",
-    },
-    description:
-      "I build backend systems that easily integrate into front end projects.",
-  },
 ];
