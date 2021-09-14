@@ -1,4 +1,7 @@
 ---
+// Components
+import Header from "../components/Header";
+
 // Constants
 import { APP_NAME } from "../constants/app.js";
 
@@ -21,7 +24,7 @@ const { title } = Astro.props;
     <link rel="stylesheet" href={Astro.resolve('../styles/global.css')}>
   </head>
   <body>
-    <header></header>
+    <Header title={APP_NAME} />
     <main>
       <slot />
     </main>
