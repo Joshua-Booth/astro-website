@@ -12,8 +12,8 @@ function Skills({ data = skills }) {
 
       <div className="text-center pt-0 px-3">
         <div className="card-deck mx-auto mt-4">
-          {data.map((skill) => (
-            <div className="card border-0 mb-5 py-4">
+          {data.map((skill, index) => (
+            <div key={index} className="card border-0 mb-5 py-4">
               <img
                 className="card-img-top p-4"
                 src={`/assets/images/${skill.image.src}`}
