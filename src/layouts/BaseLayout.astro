@@ -1,8 +1,9 @@
 ---
 // Components
+import PageHead from "../components/Head/index.astro";
 import Header from "../components/Header";
 
-// Constants
+// // Constants
 import { APP_NAME } from "../constants/app.js";
 
 // Styles
@@ -11,18 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const { title } = Astro.props;
 ---
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="application-name" content={APP_NAME}>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.ico">
-    <title>{title}</title>
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-status-bar-style" content="white">
-    <meta name="mobile-web-app-title" content={APP_NAME}>
-    <link rel="stylesheet" href={Astro.resolve('../styles/global.css')}>
-  </head>
+  <PageHead title={title} />
   <body>
     <Header title={APP_NAME} />
     <main>
